@@ -1,0 +1,15 @@
+# Dependencias (se instalan dentro del contenedor)
+node_modules/
+dist/
+
+
+# Archivos y carpetas del sistema
+.DS_Store
+Thumbs.db
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Logs
+*.log

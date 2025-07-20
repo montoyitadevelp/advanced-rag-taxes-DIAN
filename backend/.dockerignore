@@ -1,0 +1,27 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Entornos virtuales
+env/
+venv/
+llm_env/
+
+# Archivos de configuración o IDEs
+*.log
+*.env
+.env.*
+
+# Archivos y carpetas del sistema
+.DS_Store
+Thumbs.db
+
+# Otros
+*.ipynb
+.mypy_cache/
+.pytest_cache/
+tests/
