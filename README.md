@@ -35,14 +35,6 @@ Welcome to the Retrieval-Augmented Generation (RAG) system designed specifically
 
 ![UML](/resources/img/UML.png)
 
-### Create .env in the root directory
-
-```text
-DB_USER=postgres
-DB_PASSWORD=CvaD12345
-DB_NAME=postgres
-```
-
 ## 🚀 Getting Started with Docker
 
 ### Prerequisites
