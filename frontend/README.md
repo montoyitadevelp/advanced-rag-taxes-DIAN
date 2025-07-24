@@ -3,8 +3,8 @@
 #### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/rag-frontend-dian.git
-cd rag-frontend-dian
+git clone https://github.com/montoyitadevelp/advanced-rag-taxes-DIAN.git
+cd radvanced-rag-taxes-DIAN
 ```
 #### 2. Install dependencies
 
