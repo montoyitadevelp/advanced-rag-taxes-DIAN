@@ -4,7 +4,7 @@
 
 ```bash
 git clone https://github.com/montoyitadevelp/advanced-rag-taxes-DIAN.git
-cd radvanced-rag-taxes-DIAN
+cd advanced-rag-taxes-DIAN
 ```
 #### 2. Install dependencies
 
