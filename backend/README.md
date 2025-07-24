@@ -3,8 +3,8 @@
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/rag-backend-dian.git
-cd rag-backend-dian
+git clone https://github.com/montoyitadevelp/advanced-rag-taxes-DIAN.git
+cd advanced-rag-taxes-DIAN
 ```
 ### 2. Create a virtual environment
 
