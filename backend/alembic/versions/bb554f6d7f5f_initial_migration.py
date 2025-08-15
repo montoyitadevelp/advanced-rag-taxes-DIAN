@@ -25,14 +25,14 @@ def upgrade() -> None:
     sa.Column('id', sa.UUID(), nullable=False),
     sa.Column('title', sa.String(length=255), nullable=False),
     sa.Column('content', sa.Text(), nullable=False),
-    sa.Column('embedding', sa.LargeBinary(), nullable=False),
+    sa.Column('embedding', sa.ARRAY(sa.Float), nullable=False),
     sa.Column('created_at', sa.DateTime(), nullable=False),
     sa.PrimaryKeyConstraint('id')
     )
     op.create_table('question',
     sa.Column('id', sa.UUID(), nullable=False),
     sa.Column('question_text', sa.Text(), nullable=False),
-    sa.Column('embedding', sa.LargeBinary(), nullable=False),
+    sa.Column('embedding', sa.ARRAY(sa.Float), nullable=False),
     sa.Column('created_at', sa.DateTime(), nullable=False),
     sa.PrimaryKeyConstraint('id')
     )

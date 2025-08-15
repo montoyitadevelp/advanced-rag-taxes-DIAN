@@ -1,3 +1,6 @@
+import numpy as np
+
+
 def chunk_text(text: str, max_chars: int = 1500):
     """
     Splits the input text into chunks of a specified maximum number of characters.
@@ -10,3 +13,10 @@ def chunk_text(text: str, max_chars: int = 1500):
         List[str]: A list of text chunks, each with a length up to max_chars.
     """
     return [text[i:i + max_chars] for i in range(0, len(text), max_chars)]
+
+def normalize_v(vec: np.ndarray) -> np.ndarray:
+    """
+    Normalizes a vector for stability in cosine similarity.
+    """
+    norm = np.linalg.norm(vec)
+    return vec / norm if norm > 0 else vec

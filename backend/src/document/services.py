@@ -15,11 +15,11 @@ class DocumentManager:
         cache_data = []
 
         for i, doc in enumerate(documents):
-            embedding = embeddings[i].embedding
+            embedding = embeddings[i]
             db_doc = await self._create({
                 "title": doc["title"],
                 "content": doc["content"],
-                "embedding": pickle.dumps(embedding)
+                "embedding": embedding
             })
             cache_data.append((doc["title"], doc["content"], embedding))
 
